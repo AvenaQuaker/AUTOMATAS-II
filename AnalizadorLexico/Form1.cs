@@ -1011,6 +1011,7 @@ namespace AnalizadorLexico
             for (int j = 0; j <= ArregloFuente.Length - 1; ++j) {
                 int intEstado = 0;
                 string Cadena = "";
+
                 // * Foreach que permite hacer un recorrido para analizar la cadena
                 foreach (char chrCaracter in ArregloFuente[j]) {
                     if (chrCaracter.ToString() != " ") {
@@ -1040,8 +1041,16 @@ namespace AnalizadorLexico
                             break;
                         }
                         //Se obtiene el estado final
-                        intEstado = int.Parse(dtMatriz.Rows[intEstado][dtMatriz.Columns.Count - 2].ToString());
-                        string strToken = dtMatriz.Rows[intEstado][dtMatriz.Columns.Count - 1].ToString();
+                        try
+                        {
+							intEstado = int.Parse(dtMatriz.Rows[intEstado][dtMatriz.Columns.Count - 2].ToString());
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Variable Vacia, Entrada Invalida");
+                        }
+
+						string strToken = dtMatriz.Rows[intEstado][dtMatriz.Columns.Count - 1].ToString();
                         if(strToken=="ERROR") {
                             dgvErrores.Rows.Add(j + 1, strToken, "ERROR EN LA LÍNEA " + Lineas);
                             rtxToken.Text += strToken + " ";
@@ -1180,6 +1189,7 @@ namespace AnalizadorLexico
 
             rtxDerivaciones.Text += cadenaTokens + "\n"; //Agrega la cadena de tokens al textbox de derivaciones
 
+            bool Prueba = dictGramaticas.ContainsKey(cadenaTokens);
             if (dictGramaticas.ContainsKey(cadenaTokens) && dictGramaticas[cadenaTokens] == "S") { //Si encuentra una S
                 rtxDerivaciones.Text += dictGramaticas[cadenaTokens] + "\n";
                 rtxDerivaciones.Text += dictGramaticas[cadenaTokens] == "S" ? "\n" : "";

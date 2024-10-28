@@ -90,3 +90,13 @@ C:\Archivos\Aplicaciones\WAMPSERVER\www\Lenguajes y Automatas II\lya2\Analizador
 C:\Archivos\Aplicaciones\WAMPSERVER\www\Lenguajes y Automatas II\lya2\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
 C:\Archivos\Aplicaciones\WAMPSERVER\www\Lenguajes y Automatas II\lya2\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
 C:\Archivos\Aplicaciones\WAMPSERVER\www\Lenguajes y Automatas II\lya2\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.AssemblyReference.cache
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.Form1.resources
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+C:\Archivos\Aplicaciones\WAMPSERVER\www\AUTOMATAS II\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb

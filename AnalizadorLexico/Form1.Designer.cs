@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.btnAnalizador = new System.Windows.Forms.Button();
 			this.btnGuardarTokens = new System.Windows.Forms.Button();
 			this.btnLimpiar = new System.Windows.Forms.Button();
@@ -400,11 +400,12 @@
 			this.tabSemantica.Name = "tabSemantica";
 			this.tabSemantica.Size = new System.Drawing.Size(1157, 449);
 			this.tabSemantica.TabIndex = 3;
+			this.tabSemantica.Text = "Analizador Semantico";
 			// 
 			// rtxDerivacionesSemantica
 			// 
 			this.rtxDerivacionesSemantica.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.rtxDerivacionesSemantica.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.rtxDerivacionesSemantica.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.rtxDerivacionesSemantica.ForeColor = System.Drawing.Color.DodgerBlue;
 			this.rtxDerivacionesSemantica.Location = new System.Drawing.Point(582, 36);
 			this.rtxDerivacionesSemantica.Name = "rtxDerivacionesSemantica";
@@ -416,7 +417,7 @@
 			// rtxTokenSemantica
 			// 
 			this.rtxTokenSemantica.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.rtxTokenSemantica.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.rtxTokenSemantica.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.rtxTokenSemantica.ForeColor = System.Drawing.Color.DeepSkyBlue;
 			this.rtxTokenSemantica.Location = new System.Drawing.Point(15, 36);
 			this.rtxTokenSemantica.Name = "rtxTokenSemantica";
@@ -485,7 +486,7 @@
 			this.label10.AutoSize = true;
 			this.label10.BackColor = System.Drawing.Color.Transparent;
 			this.label10.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.Location = new System.Drawing.Point(820, 14);
+			this.label10.Location = new System.Drawing.Point(720, 14);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(279, 19);
 			this.label10.TabIndex = 36;
@@ -687,14 +688,14 @@
 			this.dgvMatriz.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
 			this.dgvMatriz.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.dgvMatriz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-			dataGridViewCellStyle1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dgvMatriz.DefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightGray;
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dgvMatriz.DefaultCellStyle = dataGridViewCellStyle5;
 			this.dgvMatriz.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.dgvMatriz.Location = new System.Drawing.Point(6, 6);
 			this.dgvMatriz.Name = "dgvMatriz";
